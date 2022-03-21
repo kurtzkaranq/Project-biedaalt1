@@ -1,10 +1,10 @@
-body {
+/* body {
   width: 1440px;
-}
+} */
 /* HEADER */
 header {
   position: sticky;
-  width: 1440px;
+  width: 100%;
   height: 56px;
   left: 1px;
   top: -0.4px;
@@ -19,7 +19,7 @@ header {
   position: relative;
   width: 180px;
   height: 40px;
-  left: 120px;
+  /* left: 5%; */
   top: 8px;
   display: flex;
 }
@@ -58,7 +58,7 @@ header {
   position: relative;
   height: 40px;
   width: 384px;
-  left: 250px;
+  left: 1%;
   /* top: 8px; */
   border-radius: 0px;
 
@@ -147,15 +147,11 @@ header {
 
   position: relative;
 
-  right: 22.43%;
-  top: 21.43%;
-  bottom: 21.43%;
-
   background: rgba(255, 255, 255, 0.5);
 
   width: 235px;
   height: 32px;
-  left: 50%;
+  left: 20%;
   top: 12px;
   /* warm.orange */
 
@@ -172,7 +168,7 @@ header {
   position: relative;
   width: 180px;
   /* height: 32px; */
-  left: 1100px;
+  left: 50%;
   list-style-type: none;
 }
 .loginBasket li {
@@ -190,15 +186,18 @@ header {
   /* letter-spacing: 0em; */
   text-align: center;
 }
+
+/* HEADER END DUUSNA */
+
 /* BANNER 1 */
 .banner1 {
   position: relative;
-  width: 1440px;
-  height: 496px;
-  left: 4px;
-  top: 56px;
+  width: 100%;
+  height: 50%;
+  /* left: 4px; */
+  /* top: 56px; */
   z-index: -1;
-
+  padding: 4px;
   background: url(../project\ pics:logos/base.png);
 }
 .mstarsFD {
@@ -207,7 +206,7 @@ header {
   position: absolute;
   width: 486px;
   height: 216px;
-  left: 847px;
+  left: 75%;
   top: 152px;
 }
 h1 {
@@ -237,7 +236,7 @@ h1 {
 .mstarsFD span {
   /* Хосгүй амтыг хормын дотор хүргэж өгнө. */
 
-  width: 384px;
+  width: calc(384px * 100) / 1440px;
   height: 64px;
   right: 209px;
   top: calc(50% - 64px / 2 - 1264px);
@@ -261,17 +260,19 @@ h1 {
   /* features */
 
   position: relative;
-  width: 1440px;
-  height: 248px;
-  top: 552px;
+  width: 100%;
+  height: 20%;
+  margin: auto;
+  /* margin-top: 5%; */
 }
 .featuresList {
   /* Features */
   height: 152px;
   width: 1200px;
-  left: 120px;
+  /* left: 120px; */
   top: 600px;
   border-radius: 30px;
+  margin: auto;
 
   /* Auto layout */
 
@@ -282,8 +283,8 @@ h1 {
   padding: 0px;
 
   position: relative;
-  left: 8.33%;
-  right: 8.33%;
+  /* left: 8.33%;
+  right: 8.33%; */
   top: 18.75%;
   bottom: 76.5%;
 
