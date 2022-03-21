@@ -1,0 +1,54 @@
+.headerMenu {
+  position: absolute;
+  width: 1440px;
+  height: 56px;
+  left: 1px;
+  top: -0.4px;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(241, 114, 40, 0.05);
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px 4px;
+
+  position: absolute;
+  width: 384px;
+  height: 40px;
+  left: 426px;
+  top: 8px;
+  list-style-type: none;
+}
+.menu li {
+  margin: 2px;
+}
+#home {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#foodList {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+#deliveryZone {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
