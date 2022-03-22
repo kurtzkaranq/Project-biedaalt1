@@ -1,6 +1,7 @@
-/* body {
+body {
   width: 1440px;
-} */
+  height: 2000px;
+}
 
 /* BANNER 1 */
 .banner1 {
@@ -83,7 +84,7 @@ h1 {
   height: 152px;
   width: 1200px;
   /* left: 120px; */
-  top: 600px;
+  /* top: 600px; */
   border-radius: 30px;
   margin: auto;
 
@@ -96,10 +97,8 @@ h1 {
   padding: 0px;
 
   position: relative;
-  /* left: 8.33%;
-  right: 8.33%; */
+
   top: 18.75%;
-  bottom: 76.5%;
 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
   border-radius: 30px;
@@ -131,12 +130,101 @@ h1 {
   margin-top: auto;
   margin-bottom: auto;
 }
-/* SALE */
-.sale {
+
+/* Main Menu */
+
+.Menu {
   position: relative;
   height: 448px;
   width: 1440px;
   left: 1px;
 
+  margin-top: 100px;
   border-radius: 0px;
+}
+.menuPic {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: auto;
+  position: relative;
+  width: 1200px;
+  height: 304px;
+}
+
+.Title h2 {
+  position: relative;
+  width: 251px;
+  height: 30px;
+  margin: 10%;
+  left: 20px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+
+  color: #171717;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+.Title {
+  position: relative;
+  width: 11px;
+  height: 30px;
+  margin-left: 10%;
+
+  background: #f17228;
+}
+
+.mealPic {
+  background: #ffffff;
+  /* button.sh */
+  margin: 16px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+}
+.mealPic h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.mealPic p {
+  /* 4,800₮ */
+
+  position: relative;
+  width: 60px;
+  height: 27px;
+  display: flex;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #f17228;
+}
+.declined {
+  text-decoration: line-through;
+  color: black;
+  margin-left: 20px;
+  font-weight: 400;
 }
