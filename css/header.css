@@ -144,7 +144,7 @@ header {
   margin: 0px 10px;
 }
 /* SEARCH BAR */
-.searchBar {
+.searchBar input {
   /* search */
 
   position: relative;
