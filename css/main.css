@@ -1,5 +1,5 @@
 body {
-  width: 1440px;
+  max-width: 1440px;
   height: 2000px;
 }
 
@@ -227,4 +227,10 @@ h1 {
   color: black;
   margin-left: 20px;
   font-weight: 400;
+}
+
+@media (max-width: 1440px) {
+  main {
+    margin: auto;
+  }
 }

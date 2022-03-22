@@ -1,14 +1,41 @@
 footer {
   width: 1440px;
   height: 384px;
-  background-color: orange;
+  /* background-color: orange; */
+  background-image: url(../project\ pics:logos/footer/base.png);
+  padding-left: 120px;
+  padding-right: 120px;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#footerTitle {
+  top: 2px;
+  color: white;
 }
 ul {
   list-style-type: none;
 }
-/*  */
+/* ^^^ */
 .info {
   display: flex;
+  margin-bottom: 120px;
+  padding-top: 20px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.info a {
+  margin: 15px;
+  color: white;
 }
 .social {
   display: flex;
@@ -17,4 +44,25 @@ ul {
 .social img {
   width: 20px;
   height: 23px;
+  margin-left: 5px;
+}
+.last {
+  display: flex;
+  margin-left: 30%;
+}
+.last a {
+  margin: 15px;
+  color: white;
+}
+.copyright {
+  text-align: right;
+  margin-left: 90px;
+  width: 236px;
+}
+.bottom {
+  display: flex;
+}
+.img {
+  margin-top: 10px;
+  padding-left: 10px;
 }
