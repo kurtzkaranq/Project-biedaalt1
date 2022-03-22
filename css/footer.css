@@ -1,6 +1,6 @@
 footer {
-  width: 1440px;
-  height: 384px;
+  /* width: 1440px; 
+  height: 384px; */
   /* background-color: orange; */
   background-image: url(../project\ pics:logos/footer/base.png);
   padding-left: 120px;
@@ -14,8 +14,28 @@ a:hover {
   text-decoration: underline;
 }
 #footerTitle {
-  top: 2px;
+  position: static;
+  /* width: 1px; */
+  height: 30px;
+  left: 5px;
+  top: 5px;
+  margin-bottom: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+
+  /* Primary */
+
   color: white;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
 }
 ul {
   list-style-type: none;
@@ -32,6 +52,7 @@ ul {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+  margin-left: 40px;
 }
 .info a {
   margin: 15px;
@@ -66,3 +87,5 @@ ul {
   margin-top: 10px;
   padding-left: 10px;
 }
+
+/* 

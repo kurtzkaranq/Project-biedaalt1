@@ -1,6 +1,6 @@
 /* HEADER */
 header {
-  position: sticky;
+  /* position: sticky; */
   width: 100%;
   height: 56px;
   left: 1px;
@@ -25,13 +25,13 @@ header {
   top: 8px;
   display: flex;
 }
-#title {
+#Title {
   position: static;
   /* width: 1px; */
   height: 30px;
   left: 5px;
   top: 5px;
-
+  margin-bottom: 20px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -153,7 +153,7 @@ header {
 
   width: 235px;
   height: 32px;
-  left: 20%;
+  left: 15%;
   top: 12px;
   /* warm.orange */
 
@@ -165,13 +165,13 @@ header {
 .loginBasket {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  text-align: right;
   position: relative;
   width: 180px;
   /* height: 32px; */
-  left: 50%;
+  /* left: 50%; */
   list-style-type: none;
+  margin-left: 90%;
 }
 .loginBasket li {
   margin-left: auto;
@@ -179,20 +179,18 @@ header {
   width: 37px;
   left: 29.5px;
   top: 0;
-
   font-family: "Poppins";
-  font-size: 20px;
   font-style: normal;
   font-weight: 500;
+  font-size: 20px;
   line-height: 24px;
-  /* letter-spacing: 0em; */
+  display: flex;
+  align-items: center;
   text-align: center;
+
+  /* Primary */
+
+  color: #f17228;
 }
 
 /* HEADER END DUUSNA */
-
-@media (max-width: 1440px) {
-  header {
-    margin: auto;
-  }
-}
