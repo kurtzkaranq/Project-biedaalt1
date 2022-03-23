@@ -1,0 +1,166 @@
+.login {
+  position: relative;
+  width: 384px;
+  height: 440px;
+  margin: auto;
+}
+.loginTitle {
+  /* line */
+
+  position: relative;
+  width: 9px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+
+  /* Primary */
+
+  background: #f17228;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.loginTitle h2 {
+  position: relative;
+  margin-left: 15px;
+}
+.email span {
+  /* И-мэйл */
+
+  position: relative;
+  /* left: 0%; */
+  /* right: 79.69%; */
+  /* top: 0%; */
+  /* bottom: 72.22%; */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  display: flex;
+  align-items: center;
+
+  /* Typography */
+
+  color: #171717;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+.email input {
+  /* email */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 11px 20px;
+
+  position: static;
+  width: 359px;
+  height: 40px;
+  left: 0px;
+  top: 32px;
+
+  background: #ffffff;
+  /* shade */
+
+  border: 1px solid #ffd7bf;
+  box-sizing: border-box;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+.forgotPass {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 25px 0px 0px;
+
+  position: relative;
+  /* width: 180px;
+  height: 16px;
+  left: 732px;
+  top: 336px; */
+}
+.forgotPass span {
+  text-align: right;
+}
+#entry {
+  /* login */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 0px;
+  margin-top: 10px;
+
+  position: relative;
+  /* width: 359px;
+  height: 48px;
+  left: 528px;
+  top: 408px; */
+
+  background: #f17228;
+  border-radius: 20px;
+}
+#or {
+  /* or */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0px;
+}
+#signUp {
+  /* sign up */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px;
+
+  /* position: absolute;
+  width: 359px;
+  height: 48px;
+  left: 528px;
+  top: 504px; */
+
+  background: #ffffff;
+  border: 1px solid #f17228;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
