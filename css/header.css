@@ -17,6 +17,7 @@ header {
 .title {
   /* logo */
   color: #f17228;
+  margin-left: 120px;
 
   position: relative;
   /* width: 180px; */
@@ -156,7 +157,7 @@ header {
   left: 15%;
   top: 12px;
   /* warm.orange */
-
+  /* margin-right: 120px; */
   border: 1px solid #fbc5a6;
   box-sizing: border-box;
   border-radius: 10px;
@@ -171,7 +172,8 @@ header {
   /* height: 32px; */
   /* left: 50%; */
   list-style-type: none;
-  margin-left: 90%;
+  /* margin-left: 80%; */
+  /* margin-right: 240px; */
 }
 .loginBasket li {
   margin-left: auto;
