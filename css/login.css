@@ -28,6 +28,9 @@
   position: relative;
   margin-left: 15px;
 }
+.email {
+  margin-top: 25px;
+}
 .email span {
   /* И-мэйл */
 
@@ -116,6 +119,7 @@
   align-items: center;
   padding: 18px 0px;
   margin-top: 10px;
+  color: #ffffff;
 
   position: relative;
   /* width: 359px;
