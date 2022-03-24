@@ -172,8 +172,8 @@ header {
   /* height: 32px; */
   /* left: 50%; */
   list-style-type: none;
-  /* margin-left: 80%; */
-  /* margin-right: 240px; */
+  /* right: 10%; */
+  margin-left: 40%;
 }
 .loginBasket li {
   margin-left: auto;
