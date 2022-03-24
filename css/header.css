@@ -145,6 +145,11 @@ header {
   margin: 0px 10px;
 }
 /* SEARCH BAR */
+/* .searchBar {
+  background-image: url(../project_pics/header/header/.png);
+  background-repeat: no-repeat;
+  background-position: center;
+} */
 .searchBar input {
   /* search */
 
@@ -162,6 +167,9 @@ header {
   box-sizing: border-box;
   border-radius: 10px;
 }
+/* .searchBar input::after {
+  background-image: url(../project_pics/header/header/.png);
+} */
 /* LOGIN / BASKET */
 .loginBasket {
   display: flex;
@@ -193,6 +201,9 @@ header {
   /* Primary */
 
   color: #f17228;
+}
+.loginBasket img {
+  margin-right: 4px;
 }
 
 /* HEADER END DUUSNA */

@@ -38,6 +38,7 @@ main {
   margin: auto;
 
   /* Auto layout */
+  /* flex-wrap: wrap; */
 
   display: flex;
   flex-direction: row;
@@ -80,11 +81,15 @@ main {
   margin-bottom: auto;
 }
 
-/* @media (max-width: 1440px) {
-  main {
-    margin-left: 100px;
+@media (max-width: 700px) {
+  .featuresList {
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    height: 30vh;
   }
-  .banner1 {
-    margin-left: auto;
+  .featuresList li {
+    margin: auto;
+    text-align: left;
   }
-} */
+}

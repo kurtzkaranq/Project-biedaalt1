@@ -7,12 +7,13 @@
   /* top: 56px; */
   z-index: -1;
   padding: 4px;
-  background: url(../project\ pics/base.png);
+  background: url(../project_pics/base.png);
   background-size: 100vh;
   background-position-x: center;
   background-size: 200%;
   background-repeat: repeat;
   display: flex;
+  margin: auto;
 }
 .banner1 img {
   margin-left: 20%;
@@ -69,7 +70,7 @@ h1 {
   font-size: 26px;
   line-height: 120%;
   /* or 26px */
-
+  flex-wrap: wrap;
   display: flex;
   align-items: center;
   text-align: right;

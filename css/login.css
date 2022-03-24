@@ -1,3 +1,8 @@
+main {
+  height: 1024px;
+  padding-top: 50px;
+}
+
 .login {
   position: relative;
   width: 384px;
@@ -90,7 +95,22 @@
   order: 1;
   flex-grow: 0;
   margin: 12px 0px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  /* identical to box height, or 17px */
+
+  display: flex;
+  align-items: center;
+
+  /* grey */
+
+  color: #b5b5b5;
 }
+
 .forgotPass {
   display: flex;
   flex-direction: row;
