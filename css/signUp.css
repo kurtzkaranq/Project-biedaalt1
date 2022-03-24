@@ -1,0 +1,82 @@
+.signUp {
+  position: relative;
+  width: 384px;
+  height: 440px;
+  margin: auto;
+}
+.signTitle {
+  /* line */
+
+  position: relative;
+  width: 9px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+
+  /* Primary */
+
+  background: #f17228;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.signTitle h2 {
+  position: relative;
+  margin-left: 15px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.condition {
+  /* condition */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  /* padding: 2px 2px 2px 80px; */
+
+  width: 384px;
+  height: 24px;
+}
+.condition span {
+  /* Үйлчилгээний нөхцөл зөвшөөрөх */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  /* identical to box height, or 17px */
+
+  display: flex;
+  align-items: center;
+
+  /* Primary */
+
+  color: #f17228;
+}
+.condition input {
+  box-sizing: border-box;
+  appearance: none;
+  background: white;
+  outline: 2px solid #f17228;
+  /* border: 3px solid #f17228; */
+  border-radius: 5px;
+  width: 16px;
+  height: 16px;
+}
