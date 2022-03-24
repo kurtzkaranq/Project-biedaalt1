@@ -27,7 +27,7 @@
 .signTitle h2 {
   position: relative;
   margin-left: 15px;
-
+  padding-top: 4px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
