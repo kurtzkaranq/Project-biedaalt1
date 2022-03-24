@@ -1,0 +1,86 @@
+.userProfile {
+  position: relative;
+  width: 384px;
+  height: 440px;
+  margin: auto;
+}
+.userTitle {
+  /* line */
+
+  position: relative;
+  width: 9px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+
+  /* Primary */
+
+  background: #f17228;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.userTitle h2 {
+  position: relative;
+  margin-left: 15px;
+  padding-top: 4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  width: 200px;
+  /* or 25px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.alert {
+  /* alert */
+
+  /* Auto layout */
+  margin-top: 16px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 2px 2px 0px;
+  /* 
+    position: absolute;
+    width: 384px;
+    height: 56px;
+    left: 528px;
+    top: 152px; */
+
+  background: #ffffff;
+  /* button shadow */
+
+  box-shadow: 0px 0px 2px rgba(241, 114, 40, 0.5);
+  border-radius: 10px;
+}
+.alert p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* or 20px */
+
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+
+  /* Typography */
+
+  color: #171717;
+}
+.alert span {
+  color: #f17228;
+}
