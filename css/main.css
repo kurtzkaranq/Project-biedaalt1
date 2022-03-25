@@ -54,24 +54,27 @@ main {
   border-radius: 30px;
 }
 .featuresList li {
-  position: static;
+  /* position: static;
   left: 34.79%;
   right: 8.57%;
   top: 10.94%;
-  bottom: 10.94%;
+  bottom: 10.94%; */
 
   /* Inside auto layout */
   display: flex;
   flex-direction: row;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 0px 15px;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 100px;
+  line-height: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.featuresList li h3 {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 27px; */
+  letter-spacing: 0em;
+  text-align: left;
 }
 .featuresList li img {
   width: 50px;
@@ -79,6 +82,7 @@ main {
   left: 15px;
   margin-top: auto;
   margin-bottom: auto;
+  margin-right: 20px;
 }
 
 @media (max-width: 700px) {
