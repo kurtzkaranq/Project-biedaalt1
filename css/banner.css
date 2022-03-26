@@ -1,10 +1,7 @@
 /* BANNER 1 */
 .banner1 {
-  /* position: relative; */
   width: 100%;
-  /* height: 50%; */
-  /* left: 4px; */
-  /* top: 56px; */
+
   z-index: -1;
   padding: 4px;
   background: url(../project_pics/base.png);
@@ -12,80 +9,60 @@
   background-position-x: center;
   background-size: 200%;
   background-repeat: repeat;
-  /* display: flex; */
-  /* margin: auto; */
-  /* width: 1440px; */
 }
 .bannerContent {
   display: flex;
-  max-width: 1440px;
-  margin-left: 120px;
+
   margin-right: auto;
-  /* justify-content: space-between; */
 }
 .mstarsFD {
-  /* Mstars FD */
-  /* display: flex;
-    flex-direction: column; */
-  /* position: absolute; */
-  width: 486px;
-  height: 216px;
   margin-left: 7%;
-  top: 70px;
-  text-align: right;
+  width: 20vw;
 }
 h1 {
-  /* MStars Food delivery */
-
-  width: 400px;
-  height: 120px;
-  /* right: 209px; */
-  /* top: calc(50% - 120px / 2 - 1388px); */
+  width: 15vw;
+  height: 10vh;
 
   padding-top: 14%;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 55px;
-  margin-left: 100px;
+  margin-left: 7%;
   line-height: 90%;
-  /* or 49px */
+  margin-bottom: 0%;
 
   display: flex;
   align-items: center;
   text-align: right;
-  /* letter-spacing: 0.01em; */
-  /* flex: end; */
-
-  /* Primary */
 
   color: #f17228;
 }
 .mstarsFD p {
   /* Хосгүй амтыг хормын дотор хүргэж өгнө. */
 
-  width: calc(384px * 100) / 1440px;
-  height: 64px;
+  width: 18vw;
+  height: 1vh;
   /* right: 209px; */
-  top: calc(50% - 64px / 2 - 1264px);
 
   font-family: "Comfortaa";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 120%;
+  /* line-height: 120%; */
   /* or 26px */
   flex-wrap: wrap;
   display: flex;
   align-items: center;
   text-align: right;
   letter-spacing: 0.01em;
+  margin-left: 7%;
 
   color: #4d2000;
 }
 #rightArrow {
   /* next */
-  font-size: 50px;
+  font-size: 35px;
   /* border: 2px solid #f17228; */
   box-sizing: border-box;
 
@@ -97,15 +74,12 @@ h1 {
 
   /* Auto layout */
 
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
   padding: 20px;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 10%;
-  width: 60px;
+  /* width: 5%; */
+
   height: 40px;
 
   background: rgba(255, 255, 255, 0.5);

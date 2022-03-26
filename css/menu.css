@@ -1,15 +1,17 @@
 /* Main Menu */
 .homeMenu {
   margin: auto;
+  margin-bottom: 20vh;
 }
 .Menu {
   position: relative;
-  height: 448px;
-  width: 1440px;
-  left: 1px;
+  height: 27vh;
+  /* width: 100vw; */
+  /* left: 1px; */
 
-  margin-top: 100px;
+  margin-top: 5vh;
   border-radius: 0px;
+  margin-bottom: 10vh;
 }
 .menuPic {
   display: flex;
@@ -68,12 +70,26 @@
   color: #ffffff;
   /* margin-left: 100%; */
 }
-.seeMore span {
-  margin-top: 9px;
-  margin-bottom: 9px;
+#more {
+  /* margin-top: 9px; */
+  /* margin-bottom: 29px; */
+  margin-top: 4px;
+  /* margin-bottom: auto; */
   margin-left: 25px;
   margin-right: 46px;
+  /* display: inline-block; */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  width: 150px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
+
 .saleTitle {
   display: flex;
   justify-content: space-between;
@@ -83,6 +99,7 @@
   background: #ffffff;
   /* button.sh */
   margin: 16px;
+  /* width: 100vw; */
 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
@@ -90,6 +107,9 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 15px;
+}
+.mealPic img {
+  width: 100%;
 }
 .mealPic h3 {
   font-family: "Poppins";
@@ -123,30 +143,14 @@
   margin-left: 20px;
   font-weight: 400;
 }
-.salePercent {
-  /* sale */
 
-  position: absolute;
-  width: 75px;
-  height: 43px;
-  left: 250px;
-  top: 20px;
-
-  /* Rectangle 2717 */
-
-  position: absolute;
-  width: 75px;
-  height: 43px;
-  left: 207px;
-  top: 31px;
-
-  background: #f17228;
-  border-radius: 0px 8px 0px 20px;
-
-  background: #f17228;
-  border-radius: 0px 8px 0px 20px;
-}
 .salePercent span {
   text-align: center;
   color: #ffffff;
+}
+#icon {
+  /* margin-top: 2px; */
+  /* margin-bottom: 10px; */
+  font-size: 35px;
+  margin-left: 20px;
 }
