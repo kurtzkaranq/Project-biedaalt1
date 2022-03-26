@@ -205,9 +205,20 @@ header {
 }
 
 /* HEADER END DUUSNA */
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .searchBar {
-    display: none;
-    background-image: url(../project_pics/tabletSearch.svg);
+    
+    background-image: url(../project_pics/);
+    width: 200vw;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+    
   }
-}
+  .searchBar input {
+    display: none;
+  }
+} */
