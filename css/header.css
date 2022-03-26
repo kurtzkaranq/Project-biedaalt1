@@ -3,8 +3,8 @@ header {
   /* position: sticky; */
   width: 100%;
   height: 56px;
-  left: 1px;
-  top: -0.4px;
+  /* left: 1px; */
+  /* top: -0.4px; */
   display: flex;
   background-color: white;
   /* background: black; */
@@ -17,8 +17,9 @@ header {
 .title {
   /* logo */
   color: #f17228;
-  margin-left: 120px;
+  /* margin-left: 120px; */
   margin-top: 6px;
+  /* width: 100vw; */
 
   position: relative;
   /* width: 180px; */
@@ -29,7 +30,8 @@ header {
 }
 #Title {
   margin-top: 13px;
-  margin-left: 13px;
+  margin-left: 1%;
+  /* width: 100vw; */
 
   font-family: "Poppins";
   /* font-style: normal; */
@@ -51,7 +53,7 @@ header {
   position: relative;
   height: 40px;
   width: 384px;
-  left: 1%;
+  /* left: 1%; */
   /* top: 8px; */
   border-radius: 0px;
 
@@ -138,19 +140,25 @@ header {
 /* .searchBar {
   background-image: url(../project_pics/header/header/.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
+  text-align: left;
 } */
 .searchBar input {
   /* search */
+  padding-left: 25px;
+  background: url(../project_pics/header/header/.png);
+  /* no-repeat left; */
+  background-size: 20px;
 
   position: relative;
 
   background: rgba(255, 255, 255, 0.5);
 
-  width: 235px;
+  width: 17vh;
   height: 32px;
-  left: 15%;
-  top: 12px;
+  margin-top: 12px;
+  /* left: 15%;
+  top: 12px; */
   /* warm.orange */
   /* margin-right: 120px; */
   border: 1px solid #fbc5a6;
@@ -197,3 +205,9 @@ header {
 }
 
 /* HEADER END DUUSNA */
+@media (max-width: 1200px) {
+  .searchBar {
+    display: none;
+    background-image: url(../project_pics/tabletSearch.svg);
+  }
+}
