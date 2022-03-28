@@ -203,6 +203,10 @@ header {
 
 /* HEADER END DUUSNA */
 @media (max-width: 1200px) {
+  header {
+    max-width: 1000px;
+    margin: auto;
+  }
   .loginBasket li span {
     display: none;
   }
@@ -225,7 +229,7 @@ header {
   }
   .tabletSearch img {
     /* padding-bottom: 100%; */
-    margin-left: 32vw;
+    margin-left: 50%;
     width: 25px;
     height: 22px;
     /* position: 5% 50%; */

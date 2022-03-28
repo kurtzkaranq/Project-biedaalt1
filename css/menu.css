@@ -164,8 +164,8 @@
     /* margin: auto; */
   }
   .Menu {
-    margin-left: 10%;
-    justify-content: center;
+    /* margin-left: 10%; */
+    /* justify-content: center; */
   }
   #more {
     display: none;
@@ -177,13 +177,7 @@
   .Title {
     margin-left: 3%;
   }
-  .menuPic {
-    position: relative;
-    margin-left: auto;
 
-    border-radius: 0px;
-    margin-bottom: 10vh;
-  }
   .mealPic {
     height: 250px;
   }

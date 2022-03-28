@@ -90,6 +90,7 @@ main {
     /* flex-wrap: nowrap; */
     /* flex-direction: column; */
     width: 100%;
+    margin: auto;
 
     /* height: 30vh; */
   }

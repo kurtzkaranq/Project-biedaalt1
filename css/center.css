@@ -2,3 +2,8 @@
   max-width: 1500px;
   margin: auto;
 }
+@media (max-width: 1200px) {
+  .contents {
+    max-width: 1000px;
+  }
+}

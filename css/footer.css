@@ -88,4 +88,16 @@ ul {
   padding-left: 10px;
 }
 
-/* 
+@media (max-width: 1200px) {
+  footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .bottom {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 40px;
+  }
+  .footerContent {
+  }
+}
