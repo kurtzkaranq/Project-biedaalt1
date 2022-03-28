@@ -89,7 +89,7 @@ main {
   .featuresList {
     /* flex-wrap: nowrap; */
     /* flex-direction: column; */
-    width: 90%;
+    width: 100%;
 
     /* height: 30vh; */
   }

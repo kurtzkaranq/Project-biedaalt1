@@ -90,3 +90,8 @@ h1 {
   width: 200px;
   margin: auto;
 }
+@media (max-width: 1200px) {
+  .banner1 {
+    width: 100%;
+  }
+}

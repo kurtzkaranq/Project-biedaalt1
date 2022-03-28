@@ -88,6 +88,9 @@
   align-items: center;
   text-align: center;
 }
+#tabletMore {
+  display: none;
+}
 
 .saleTitle {
   display: flex;
