@@ -20,7 +20,7 @@
   margin: auto;
   position: relative;
   width: 1200px;
-  height: 304px;
+  height: 30vh;
 }
 
 .Title h2 {
@@ -59,16 +59,15 @@
   width: 200px;
   height: 40px;
   text-align: center;
-  /* justify-content: center;
-  align-items: center; */
-  /* margin-top: auto; */
+
   padding-top: 14px;
   background-color: #f17228;
   margin-right: 10%;
   border-radius: 20px;
 
   color: #ffffff;
-  /* margin-left: 100%; */
+
+  display: block;
 }
 #more {
   /* margin-top: 9px; */
@@ -153,4 +152,42 @@
   /* margin-bottom: 10px; */
   font-size: 35px;
   margin-left: 20px;
+}
+
+@media (max-width: 1200px) {
+  .mealPic {
+    width: 15%;
+    height: 20vh;
+    /* margin: auto; */
+  }
+  .Menu {
+    margin-left: 10%;
+    justify-content: center;
+  }
+  #more {
+    display: none;
+  }
+  .seeMore {
+    background-color: white;
+  }
+
+  .Title {
+    margin-left: 3%;
+  }
+  .menuPic {
+    position: relative;
+    margin-left: auto;
+
+    border-radius: 0px;
+    margin-bottom: 10vh;
+  }
+  .mealPic {
+    height: 250px;
+  }
+  #tabletMore {
+    display: block;
+    margin-right: 12%;
+    width: 20px;
+    height: 20px;
+  }
 }

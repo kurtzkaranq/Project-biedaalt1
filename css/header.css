@@ -137,37 +137,34 @@ header {
   margin: 0px 10px;
 }
 /* SEARCH BAR */
-/* .searchBar {
-  background-image: url(../project_pics/header/header/.png);
-  background-repeat: no-repeat;
-  background-position: left;
-  text-align: left;
-} */
+.searchBar {
+  display: flex;
+}
+
 .searchBar input {
   /* search */
   padding-left: 25px;
   background: url(../project_pics/header/header/.png);
-  /* no-repeat left; */
-  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 4% 50%;
+  display: block;
 
+  margin-left: 40%;
+
+  background-size: 15px;
   position: relative;
-
-  background: rgba(255, 255, 255, 0.5);
-
-  width: 17vh;
+  width: 18vh;
   height: 32px;
   margin-top: 12px;
-  /* left: 15%;
-  top: 12px; */
-  /* warm.orange */
-  /* margin-right: 120px; */
+
   border: 1px solid #fbc5a6;
   box-sizing: border-box;
   border-radius: 10px;
 }
-/* .searchBar input::after {
-  background-image: url(../project_pics/header/header/.png);
-} */
+.tabletSearch img {
+  display: none;
+}
+
 /* LOGIN / BASKET */
 .loginBasket {
   display: flex;
@@ -175,17 +172,16 @@ header {
   text-align: right;
   position: relative;
   width: 180px;
-  /* height: 32px; */
-  /* left: 50%; */
+
   list-style-type: none;
-  /* right: 10%; */
+
   margin-left: 40%;
 }
 .loginBasket li {
-  margin-left: auto;
+  /* margin-left: auto; */
   height: 16px;
   width: 37px;
-  left: 29.5px;
+  /* left: 29.5px; */
   top: 0;
   font-family: "Poppins";
   font-style: normal;
@@ -205,9 +201,8 @@ header {
 }
 
 /* HEADER END DUUSNA */
-/* @media (max-width: 1200px) {
+@media (max-width: 1200px) {
   .searchBar {
-    
     background-image: url(../project_pics/);
     width: 200vw;
     height: 20vh;
@@ -215,10 +210,19 @@ header {
     background-position: 50%;
     padding-top: 1vh;
     padding-bottom: 1vh;
-
-    
   }
   .searchBar input {
     display: none;
   }
-} */
+  .tabletSearch img {
+    /* padding-top: 50%; */
+    margin-left: 20vw;
+    width: 25px;
+    height: 25px;
+    /* position: 5% 50%; */
+    display: block;
+  }
+  .loginBasket {
+    margin-left: 0%;
+  }
+}
