@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/userPro.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/signUp.css" />
+    <link rel="stylesheet" href="../css/center.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/forgotPass.css" />
+    <link rel="stylesheet" href="../css/order.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../project_pics/logo.svg" />
+    <title>Order</title>
+  </head>
+  <body>
+    <header class="contents">
+      <!-- FOOD DELIVERY / HOME LOGO -->
+      <div class="leftHead">
+        <div class="listButton">
+          <img src="./project_pics/moreBottom.svg" alt="" />
+        </div>
+      </div>
+      <div class="title">
+        <img src="../project_pics/header/iamage.png" alt="" />
+        <h2 id="title">Food Delivery</h2>
+      </div>
+      <!-- MAIN MENU -->
+      <ul class="menu">
+        <a href="#"><li id="home">НҮҮР</li></a>
+        <a href="./project/menu1.html"><li id="foodList">ХООЛНЫ ЦЭС</li></a>
+        <a href="./project/deliveryZone.html"
+          ><li id="deliveryZone">ХҮРГЭЛТИЙН БҮС</li></a
+        >
+      </ul>
+
+      <!-- SEARCH BAR -->
+      <div class="searchBar">
+        <div class="searchSection">
+          <input type="text" value="" placeholder="Хайх" />
+        </div>
+      </div>
+      <!-- LOGIN/BASKET -->
+      <div>
+        <ul class="loginBasket">
+          <a href="#">
+            <li>
+              <div class="tabletSearch">
+                <img src="../project_pics/tabletSearch.svg" alt="" />
+              </div>
+            </li>
+          </a>
+          <a href="#" id="basket">
+            <li>
+              <img src="../project_pics/basket.svg" />
+              <span>Сагс</span>
+            </li>
+          </a>
+          <a href="./project/login.html">
+            <li>
+              <img src="../project_pics/user.svg" alt="" />
+              <span> Нэвтрэх</span>
+            </li>
+          </a>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div class="row m-1">
+        <div class="col-6">
+          <div>
+            Хаягийн мэдээлэл оруулах
+            <div class="p-2 bg-light h-100">
+              <div class="row w-100 ps-4 pe-4 mt-2">
+                <div class="row">
+                  <p>Хаягаа оруулна уу.</p>
+                </div>
+                <div class="row mb-2">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="row mb-2">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="row mb-2">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+              <div class="mb-4">
+                <div class="row ps-4 pb-2">Нэмэлт мэдээлэл</div>
+                <div class="row w-100 bg-light ps-4 pe-4 rounded-4">
+                  <input
+                    type="text"
+                    placeholder="Орц, давхар, орцны код....."
+                    class=""
+                  />
+                </div>
+              </div>
+              <div class="row ps-4 pb-2 mt-2">Утасны дугаар*</div>
+              <div class="row w-100 ps-4 pe-4 bg-light rounded-4">
+                <input type="text" placeholder="Утасны дугаараа оруулна уу." />
+              </div>
+              <div class="row ps-4 pb-2 mt-2">Төлбөр төлөх сонголт</div>
+              <div>
+                <input type="radio" class="me-1 ms-3" />Бэлнээр
+                <input type="radio" class="me-1 ms-4" />Картаар
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div>
+            Захиалга баталгаажуулах
+            <div class="bg-light p-2 orderAccept">Хулууны зутан (1) 6,800₮</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="contents footerContent">
+        <div class="info">
+          <!-- FOOD DELIVERY / HOME LOGO -->
+          <div class="title">
+            <img src="../project_pics/footer/logo.image.png" alt="" />
+            <h2 id="footerTitle">Food Delivery</h2>
+          </div>
+          <!-- FOOTER MENU -->
+          <div class="footerMenu">
+            <ul>
+              <li><a href="#">Нүүр</a></li>
+              <li><a href="#">Хоолны цэс</a></li>
+              <li>
+                <a href="./project/deliveryZone.html">Хүргэлтийн бүс</a>
+              </li>
+            </ul>
+          </div>
+          <!-- CONTACT -->
+          <div class="contact">
+            <ul>
+              <li><a href="#">Холбоо барих</a></li>
+              <li>(976) 123456789</li>
+              <li>(976) 987654321</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="bottom">
+          <div class="social">
+            Бидэнтэй нэгдээрэй
+            <div class="img">
+              <a href="#"
+                ><img
+                  src="../project_pics/footer/social logos/facebook.png"
+                  alt=""
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="../project_pics/footer/social logos/instagram.png"
+                  alt=""
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="../project_pics/footer/social logos/twitter.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <!-- copyright etc. -->
+          <div class="last">
+            <a href="#">Үйлчилгээний нөхцөл</a>
+            <a href="#">Нууцлалын бодлого</a>
+            <div class="copyright">
+              © 2020 MStars Foods LLC
+              <br />
+              Зохиогчийн эрх хуулиар хамгаалагдсан.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

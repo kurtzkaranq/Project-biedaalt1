@@ -19,6 +19,7 @@ header {
 }
 .leftHead {
   display: flex;
+  display: none;
 }
 /* TITLE / LOGO (FOOD DELIVERY) */
 .title {
@@ -277,6 +278,9 @@ header {
     margin-left: 10px;
     align-items: center;
     justify-content: center;
+  }
+  .leftHead {
+    display: inline-block;
   }
   .title {
     margin: auto;
