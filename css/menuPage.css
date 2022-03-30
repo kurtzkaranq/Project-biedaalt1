@@ -1,8 +1,10 @@
 main {
-  height: 1400px;
+  height: 100%;
+  padding-bottom: 10%;
 }
 .foodTypes ul {
   display: flex;
+  /* flex-wrap: wrap; */
   /* margin-left: 120px; */
 }
 .foodTypes ul li {
@@ -72,56 +74,60 @@ main {
   color: #ffffff;
 }
 .dish {
-  /* meals */
-
-  /* Auto layout */
-  /* display: block; */
+  margin-left: 2%;
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
+  flex-wrap: wrap;
+
   align-items: flex-start;
   padding: 0px;
+  margin-top: 10px;
 }
 .dishPic {
-  background: #ffffff;
-  /* button.sh */
-  margin: 16px;
+  background: white;
 
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 15px;
-  /* card */
-
-  /* Auto layout */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+
+  line-height: 0%;
+
   padding: 15px;
 
-  position: static;
-  width: 282px;
-  height: 304px;
-  left: 732px;
-  top: 0px;
-
-  background: #ffffff;
-  /* button.sh */
+  background: white;
 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
 
-  /* Inside auto layout */
-
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  margin: 0px 24px;
+  margin: 15px 24px;
+}
+.dishPic p {
+  line-height: 0;
+  color: #f17228;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 .mainMenu {
   display: flex;
   flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+  .foodTypes {
+    margin-left: 0%;
+    margin-bottom: 0%;
+  }
+  .dish {
+    margin-top: 0%;
+    margin-left: 5%;
+  }
+  .dishPic {
+    width: 15%;
+    height: 50%;
+  }
 }

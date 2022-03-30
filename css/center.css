@@ -7,3 +7,8 @@
     max-width: 1000px;
   }
 }
+@media (max-width: 770px) {
+  .contents {
+    max-width: 750px;
+  }
+}

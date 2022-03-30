@@ -94,10 +94,6 @@ ul {
     padding-right: 0;
   }
   .bottom {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 40px;
-  }
-  .footerContent {
+    width: 70%;
   }
 }

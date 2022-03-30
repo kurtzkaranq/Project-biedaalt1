@@ -29,31 +29,48 @@
   <body>
     <header class="contents">
       <!-- FOOD DELIVERY / HOME LOGO -->
-      <div class="title">
-        <img src="../project_pics/header/iamage.png" alt="" />
-        <h2 id="Title">Food Delivery</h2>
+      <div class="leftHead">
+        <div class="title">
+          <img src="../project_pics/header/iamage.png" alt="" />
+        </div>
+        <h2 id="title">Food Delivery</h2>
+        <!-- MAIN MENU -->
+        <ul class="menu">
+          <a href="#"><li id="home">НҮҮР</li></a>
+          <a href="./project/menu1.html"><li id="foodList">ХООЛНЫ ЦЭС</li></a>
+          <a href="./project/deliveryZone.html"
+            ><li id="deliveryZone">ХҮРГЭЛТИЙН БҮС</li></a
+          >
+        </ul>
       </div>
-      <!-- MAIN MENU -->
-      <ul class="menu">
-        <li id="home">НҮҮР</li>
-        <li id="foodList">ХООЛНЫ ЦЭС</li>
-        <li id="deliveryZone">ХҮРГЭЛТИЙН БҮС</li>
-      </ul>
       <!-- SEARCH BAR -->
       <div class="searchBar">
-        <input type="text" placeholder="Хайх" />
+        <div class="searchSection">
+          <input type="text" value="" placeholder="Хайх" />
+        </div>
       </div>
       <!-- LOGIN/BASKET -->
       <div>
         <ul class="loginBasket">
-          <li>
-            <img src="../project_pics/header/header/busket icon.png" />
-            Сагс
-          </li>
-          <li>
-            <img src="../project_pics/header/header/user icon.png" alt="" />
-            Нэвтрэх
-          </li>
+          <a href="#">
+            <li>
+              <div class="tabletSearch">
+                <img src="../project_pics/tabletSearch.svg" alt="" />
+              </div>
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <img src="../project_pics/basket.svg" />
+              <span>Сагс</span>
+            </li>
+          </a>
+          <a href="./project/login.html">
+            <li>
+              <img src="../project_pics/user.svg" alt="" />
+              <span> Нэвтрэх</span>
+            </li>
+          </a>
         </ul>
       </div>
     </header>
@@ -88,8 +105,7 @@
             <h3>Чикен бургер</h3>
             <p>14,000₮</p>
           </div>
-        </div>
-        <div class="dish contents">
+
           <div class="dishPic">
             <img src="../project_pics/main menu/hool1.png" alt="" />
             <h3>Салмон загас</h3>
@@ -110,8 +126,7 @@
             <h3>Чикен бургер</h3>
             <p>14,000₮</p>
           </div>
-        </div>
-        <div class="dish">
+
           <div class="dishPic">
             <img src="../project_pics/main menu/hool1.png" alt="" />
             <h3>Салмон загас</h3>

@@ -14,12 +14,18 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+.listBottom {
+  display: none;
+}
+.leftHead {
+  display: flex;
+}
 /* TITLE / LOGO (FOOD DELIVERY) */
 .title {
   /* logo */
   color: #f17228;
 
-  margin-top: 6px;
+  /* margin-top: 6px; */
   /* width: 100vw; */
 
   position: relative;
@@ -30,17 +36,16 @@ header {
   display: flex;
 }
 #title {
-  margin-top: 13px;
   /* margin-left: 1%; */
   /* width: 100vw; */
-
+  /* display: block; */
+  align-items: center;
+  min-width: 130px;
   font-family: "Poppins";
-  /* font-style: normal; */
-  /* font-weight: 700; */
+  font-style: normal;
+  font-weight: 700;
   font-size: 18px;
-  /* line-height: 27px; */
   text-align: center;
-  /* padding-bottom: 50px; */
   color: #f17228;
 }
 /* NAVIGATION MENU */
@@ -154,7 +159,7 @@ header {
 
   background-size: 15px;
   position: relative;
-  width: 18vh;
+  width: 20vw;
   height: 32px;
   margin-top: 12px;
 
@@ -207,33 +212,46 @@ header {
     max-width: 1000px;
     margin: auto;
   }
+  .leftHead {
+    width: 50%;
+    margin-right: 20%;
+  }
+  .loginBasket {
+    margin-left: 40%;
+  }
+  .loginBasket li {
+    margin-left: 1%;
+  }
   .loginBasket li span {
     display: none;
+    justify-content: space-between;
   }
+
   .loginBasket li img {
     width: 25px;
     height: 25px;
-    margin-left: 0%;
+    /* margin-left: 0%; */
   }
   .searchBar {
     background-image: url(../project_pics/);
-    width: 200vw;
+    /* width: 20vw; */
     height: 20vh;
     background-repeat: no-repeat;
     background-position: 50%;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-top: 1.2vh;
+    /* margin-left: 17vw; */
+    /* padding-bottom: 1vh; */
   }
   .searchBar input {
     display: none;
   }
   .tabletSearch img {
     /* padding-bottom: 100%; */
-    margin-left: 50%;
+    /* margin-left: 50%; */
     width: 25px;
     height: 22px;
     /* position: 5% 50%; */
-    display: block;
+    display: inline;
   }
 
   .loginBasket {
@@ -244,7 +262,35 @@ header {
     /* padding-right: 100px; */
   }
   #title {
+    margin-left: 0%;
     width: 200px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 770px) {
+  .listButton {
+    display: block;
+    /* margin-left: auto; */
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .title {
+    margin: auto;
+  }
+  #title {
+    margin: auto;
     font-size: 20px;
+    text-align: center;
+    margin-bottom: 50%;
+  }
+  .menu {
+    display: none;
+  }
+  #basket {
+    display: none;
   }
 }

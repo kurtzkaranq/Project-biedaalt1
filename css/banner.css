@@ -5,7 +5,7 @@
   z-index: -1;
   padding: 4px;
   background: url(../project_pics/base.png);
-  background-size: 100vw;
+  /* background-size: 100vw; */
   background-position-x: center;
   background-size: 200%;
   background-repeat: repeat;
@@ -93,5 +93,72 @@ h1 {
 @media (max-width: 1200px) {
   .banner1 {
     width: 100%;
+    /* height: 250px; */
+  }
+  .mstarsFD {
+    /* background-color: aqua; */
+    width: 200vw;
+    margin-left: 1%;
+  }
+  h1 {
+    /* margin-right: 100%; */
+    margin-bottom: 0%;
+    width: 20vw;
+    font-size: 36px;
+  }
+  .bannerContent {
+    /* width: 50px; */
+    max-width: fit-content;
+  }
+  .mstarsFD p {
+    /* width: 23vw; */
+    font-size: 18px;
+    text-align: right;
+    margin-left: 20%;
+  }
+
+  .bannerContent img {
+    width: 50%;
+    height: 50%;
+  }
+}
+@media (max-width: 770px) {
+  .banner1 {
+    width: 150vw;
+  }
+  .mstarsFD {
+    margin-left: 15%;
+    /* background-color: aqua; */
+    width: 30vw;
+    /* margin-left: 1%; */
+  }
+  h1 {
+    /* margin-right: 100%; */
+    /* margin-bottom: 0%; */
+    height: 60px;
+    width: 23vw;
+    font-size: 22px;
+  }
+  .bannerContent {
+    /* width: 50px; */
+    max-width: fit-content;
+  }
+  .mstarsFD p {
+    /* width: 23vw; */
+    font-size: 12px;
+    text-align: right;
+    margin-left: 20%;
+    width: 23vw;
+  }
+
+  .bannerContent img {
+    width: 40%;
+    height: 40%;
+  }
+  .rightArrow {
+    display: none;
+  }
+  .slide {
+    display: none;
   }
 }
