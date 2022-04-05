@@ -11,8 +11,8 @@
 
   margin-top: 5vh;
   border-radius: 0px;
-  margin-bottom: 10vh;
-  padding-bottom: 12vh;
+  margin-bottom: 5vh;
+  padding-bottom: 5vh;
 }
 .menuPic {
   display: flex;
@@ -165,8 +165,8 @@
     /* margin: auto; */
   }
   .Menu {
-    /* margin-left: 10%; */
-    /* justify-content: center; */
+    margin-left: 10%;
+    justify-content: center;
   }
   #more {
     display: none;

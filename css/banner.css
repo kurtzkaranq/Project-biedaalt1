@@ -19,7 +19,7 @@
   margin-left: 7%;
   width: 23vw;
 }
-h1 {
+.Mstars-title {
   width: 15vw;
   height: 10vh;
 
@@ -38,7 +38,7 @@ h1 {
 
   color: #f17228;
 }
-.mstarsFD p {
+.text {
   /* Хосгүй амтыг хормын дотор хүргэж өгнө. */
 
   width: 21vw;
@@ -65,9 +65,11 @@ h1 {
   font-size: 35px;
   /* border: 2px solid #f17228; */
   box-sizing: border-box;
+  padding: 10px;
+  padding-bottom: 100px;
 
   color: #f17228;
-  padding: 1px;
+  /* padding: 1px; */
 }
 .rightArrow {
   /* arrow */
